@@ -96,10 +96,10 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  printf("Hello World!\r\n");
+//	  printf("Hello World!\r\n");
 
-//	  float a = 1;
-//	  printf("%f\r\n", a);
+	  float a = 3.141592;
+	  printf("%f\r\n", a);
 
 	  HAL_Delay(1000);
     /* USER CODE END WHILE */
