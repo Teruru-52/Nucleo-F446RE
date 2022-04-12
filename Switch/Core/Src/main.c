@@ -104,9 +104,12 @@ int main(void)
 //	  }
 
 	  if (HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13) == 0){
-	  	  printf("Hello World!\r\n");
-	  	  HAL_Delay(1000);
+	  	  printf("ON\r\n");
 	  }
+	  else{
+		  printf("OFF\r\n");
+	  }
+	  HAL_Delay(1000);
 
     /* USER CODE END WHILE */
 
